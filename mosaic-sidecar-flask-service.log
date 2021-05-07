@@ -23484,3 +23484,25 @@
                     process_default : 219 — auto-commit enabled
 2021-05-07 15:23:08,151 — app — INFO — /app/app.py - app - 
                     process_default : 223 — cd /git/; cp -r '/notebooks/mosaic-sidecar-flask-service.log' '/git/mosaic-sidecar-flask-service.log'; git add .; git commit -m 'auto save by knights-watch';
+2021-05-07 15:23:09,648 — app — INFO — /app/app.py - app - 
+                    process_default : 228 — cd /git/; git fetch origin; git rebase origin/master;
+2021-05-07 15:23:10,448 — app — INFO — /app/app.py - app - 
+                    delete_idle_pod_k8_resources : 319 — Deleting idle resources
+2021-05-07 15:23:10,657 — app — INFO — /app/app.py - app - 
+                    call_nb_api_stop_template : 303 —  url : http://notebooks-api:5000/notebooks/api/v1/templates/752c9006-9d16-467e-b6ab-e71fe5a94f53/stop , headers : {'authorization': 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiJhbWl0LmJva2VAbG50aW5mb3RlY2guY29tIiwidXNlcm5hbWUiOiJhbWl0LmJva2VAbG50aW5mb3RlY2guY29tIiwidXNlcmVtYWlsIjoiYW1pdC5ib2tlQGxudGluZm90ZWNoLmNvbSJ9.6PQngoOEySadjj8iqtEwEwiPd7HsPnYca6SVu9Vtyrg', 'x-project-id': 'c22f060f-6c19-4c42-bdaa-5d3e41857da4'}
+2021-05-07 15:23:11,259 — app — INFO — /app/app.py - app - 
+                    process_default : 231 — rebase successful
+2021-05-07 15:23:12,331 — app — INFO — /app/app.py - app - 
+                    call_nb_api_stop_template : 309 — completion call_nb_api_stop_template : status 204 
+2021-05-07 15:23:13,691 — app — INFO — /app/app.py - app - 
+                    process_default : 213 — Inside event in modify
+2021-05-07 15:23:13,691 — app — INFO — /app/app.py - app - 
+                    process_default : 214 — Event name e.log
+2021-05-07 15:23:13,692 — app — INFO — /app/app.py - app - 
+                    process_default : 216 — /notebooks/mosaic-sidecar-flask-service.log
+2021-05-07 15:23:13,692 — app — INFO — /app/app.py - app - 
+                    process_default : 217 — value of name mosaic-sidecar-flask-service.log
+2021-05-07 15:23:13,692 — app — INFO — /app/app.py - app - 
+                    process_default : 219 — auto-commit enabled
+2021-05-07 15:23:13,693 — app — INFO — /app/app.py - app - 
+                    process_default : 223 — cd /git/; cp -r '/notebooks/mosaic-sidecar-flask-service.log' '/git/mosaic-sidecar-flask-service.log'; git add .; git commit -m 'auto save by knights-watch';
